@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html  lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structure html</title>
+</head>
+
+<body>
+    <header><h1>Mes premieres balise html</h1> </header>
+    <section>
+        <h2>EXO1</h2>
+        <p>bonjour, <b>joyeux Hallowen,</b> on attend avec impatience ce : <i> Week-end de 3 jours !</i></p> 
+    </section>
+    
+    <section>
+        <h2>EXO2</h2>
+        <h3>Mon repas de Noel</h3>
+        <p>J'ai eu de la chance d'avoir un repas de Noel <i>excellent,</i>puisqu'il était composé des plats suivants :
+        <ul>
+            <li>Du foie gras sur des toasts grillés <i>(ca j'adore)</i></li>
+            <li>Du saumon rose</li>
+            <li>De la pintade avec de la purée</li>
+            <li>Une buche glacée</li> 
+        </ul>
+        <p>Et le tout arrosé de <b>Champagne !</b></p> 
+        
+
+        <p>Aprés j'ai pu deballer tout mes cadeaux :</p> 
+        <ol>
+            <li>Mamie Lulu : des <b>dvd</b></li>
+            <li>Mamie Elisabeth des <i>cd</i></li>
+            <li>Tonton Hugues : <b>des livres</b></li>
+        </ol>
+    </section>
+    <section>
+        <h2>EXO3</h2>
+        <ol>
+            <li><u>Html:</u> HYPER TEXT MARKUP LANGUAGE
+            c'est la sctruture de la page HTML ou on organise, les tires, paragraphes, listes, tableaux...</li>
+            <li><u>CCS:</u> Cascading Style Sheet
+            C'est la mise en forme, le design, l'apparence (les couleurs, les tailles, les positionnements sur la page)</li>
+            <li> <u>Terminologie</u>
+                <p>
+                    ○ Eléments : ils définissent la structure et le contenu des objets au sein d'une page. Les plus 
+                    couramment utilisés sont les niveaux de titre (h1 à h6) et les paragraphes (avec la balise p)
+                </p>
+                <p>
+                    ○ Balises : elles sont reconnaissables car elles sont encadrées d'un chevron ouvrant et d'un 
+                    chevron fermant. L'ouverture d'une balise détermine le début d'un élément. Sa fermeture 
+                    détermine sa fin. Le contenu qui est inséré entre une balise ouvrante et fermante 
+                    représente le contenu de cet élément. Par exemple, un lien html sera encadré d'une balise
+                </p>
+                <p>
+                    A ouvrante et fermante. Il existe aussi des balises auto-fermantes (aussi dites orphelines).
+                </p>
+                <p>
+                    ○ Attributs : ce sont des propriétés utilisées pour fournir des informations complémentaires 
+                    sur un élément. Les attributs les plus communs incluent l'attribut ID (qui identifie un 
+                    élément), l'attribut CLASS (qui classifie un élément), l'attribut SRC (qui spécifie la source 
+                    d'un contenu qui peut être imbriqué) et l'attribut HREF (qui contient un lien hypertexte vers 
+                    une ressource liée). Les attributs sont définis au sein de la balise ouvrante après le nom de
+                    l'élément :
+                    &lt;a href="https://github.com/Ma6Tvacoder-Docs/partages">Lien</a>
+                </p>
+            </li>
+            <li>
+                Structure :
+                ○ Un fichier HTML est un fichier de texte brut (non mis en forme) enregistré avec l'extension 
+                _.html_.
+                ○ Tous les fichiers html ont une structure de base qui implique de déclarer les éléments 
+                suivants :
+                <pre>
+                    &lt;DOCTYPE >
+                    &lt;html>
+                        &lt;head>
+                            &lt;title></title>
+                        &lt;/head>
+                        &lt;body>
+                        &lt;/body>
+                    &lt;/html>
+                </pre>
+                <p>
+                    ○ !DOCTYPE html informe le navigateur web que le document est de type html et qu'il s'agit 
+                    (ici) de la dernière version du langage, le HTML 5. En HTML 4.01, la précédente version 
+                    avant la 5, cette balise s’écrivait &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 
+                    Frameset//EN" <a href="http://www.w3.org/TR/html4/frameset.dtd">http://www.w3.org/TR/html4/frameset.dtd</a> 
+                </p>
+                <p>
+                    ○ A l'intérieur de l'élément html la balise head identifie le début du document et inclut les 
+                    métadonnées (informations sur la page). Le contenu à l'intérieur de la balise head n'est 
+                    pas affiché par le navigateur puisqu'il donne des informations sur la page (liens vers des 
+                    fichiers externes, utilisation du langage html, titre de la page).
+                </p>
+                <p>
+                    ○ Tout ce qui s'affichera dans le navigateur est inclus à l'intérieur de la balise body.
+
+                </p>
+                
+            
+                <p>
+                    ○ Quand un élément est placé au sein d'un autre (ou imbriqué) il est important d' indenter
+                    cet élément en le décalant vers la droite à l'aide de la tabulation pour conserver une 
+                    structure bien organisée et lisible pour tout le monde.
+                </p>
+
+                <p>
+                    ○ Quand un élément est placé au sein d'un autre (ou imbriqué) il est important d' indenter
+                    cet élément en le décalant vers la droite à l'aide de la tabulation pour conserver une 
+                    structure bien organisée et lisible pour tout le monde.
+                </p>
+                <p>
+                    Les balises auto-fermantes correspondent à des éléments ponctuels dans une page html, 
+                    pas besoin de fournir une information de fin (insérer une image ou un lien par exemple). <br />
+                    Les plus courantes :
+                    <br />
+                   &lt;img /> <br />
+                   &lt;meta /><br />
+                   &lt;input /><br />
+                   &lt;hr /><br />
+                   &lt;link />
+                </p>
+                
+            </li>   
+            <li>
+                <p>
+                                        Le W3C - La validation du code
+                    Le World Wide Web Consortium, abrégé par le sigle W3C, est un organisme de standardisation à 
+                    but non lucratif, fondé en octobre 1994 chargé de promouvoir la compatibilité des technologies du 
+                    World Wide Web telles que <a href="">HTML5</a>, <a href="">HTML</a>, <a href="">CSS</a>, PNG, SVG …Le W3C ou World Wide Web 
+                    Consortium, est un organisme international qui développe des standards pour le Web afin que les 
+                    gens puissent communiquer efficacement à travers Internet, autour de formats ouverts garantissant 
+                    une meilleure interopérabilité (c'est-à-dire une meilleure compréhension des systèmes hétérogènes à 
+                    travers des données et langages standardisés).Le consortium existe depuis 1994 et est dirigé par 
+                    l'inventeur du Web, Tim Berners-Lee.Il est composé d'une équipe fixe et des membres (dont plusieurs 
+                    centaines d'entreprises partenaires). Les membres délèguent des ingénieurs au sein du W3C et 
+                    participent ainsi à l'élaboration des spécifications techniques pour les technologies du Web. De 
+                    nombreux membres actifs font partie des équipes de développement des navigateurs (Microsoft, 
+                    Mozilla, Apple, Opera, Google, etc).
+
+                </p>
+            </li>
+        </ol>
+    </section>
+
+
+</body>
